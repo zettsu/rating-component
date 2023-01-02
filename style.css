@@ -21,13 +21,12 @@ html, body {
     font-family: "Overpass", serif;
 }
 
-
-
 .text-container {
     font-weight: 400;
     color: var(--light-grey);
     font-size: 1rem;
 }
+
 .text-container > h1 {
     color: white;
 }
@@ -123,7 +122,7 @@ body{
 
 .container {
     margin: 0% 10% 0% 10%;
-    display: flex;
+
     flex-flow: column;
     justify-content: center;
     align-items: center;
@@ -133,8 +132,30 @@ body{
     border: 1px solid #2d2d2d;
 }
 
+.flex {
+    display: flex;
+}
+
 .rate-option:nth-child(n+2) {
     margin-left: 2%;
+}
+
+.hidden {
+    display: none;
+}
+
+.badge {
+    margin-top: 5%;
+    font-weight: 400;
+    color: var(--orange);
+    font-size: 1rem;
+    background-color: var(--medium-grey);
+    padding: 2% 4% 2% 4%;
+    border-radius: 25px;
+}
+
+.centered {
+    text-align: center;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -145,7 +166,6 @@ body{
     .container {
         font-size: 24px;
         margin: 10% 38% 10% 38%;
-        display: flex;
         flex-flow: column;
         justify-content: center;
         align-items: center;

@@ -14,7 +14,7 @@
   </head>
   <body>
     <main>
-      <div class="container">
+      <div class="container" id="rate">
         <div class="icon-container">
           <img class="icon" src="images/icon-star.svg"/>
         </div>
@@ -24,7 +24,7 @@
         </div>
         <div class="rate-container">
           <div class="rate-option">
-            <input type="radio" class="radio-input" name="rate" id="rate-1" value="1"/>
+            <input type="radio" class="radio-input" name="rate" id="rate-1" value="1" checked/>
             <label class="label" for="rate-1">1</label>
           </div>
           <div class="rate-option">
@@ -45,17 +45,29 @@
           </div>
         </div>
         <div class="button-container">
-          <input type="button" class="btn-submit" name="btn" id="reset-btn" value="submit"/>
+          <input type="button" class="btn-submit" name="btn" id="btn-submit" value="submit"/>
         </div>
       </div>
-      <div class="footer-container">
-        <div class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-          Coded by <a href="#">Matias Olivera</a>.
+      <div class="container centered hidden" id="thank-you-container">
+        <div>
+          <img src="images/illustration-thank-you.svg"/>
+        </div>
+        <div class="badge">
+          You selected <span id="rated">5</span> out of 5
+        </div>
+        <div class="text-container centered">
+          <h1>Thank you!</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!</p>
         </div>
       </div>
     </main>
-
+    <div class="footer-container" c>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Matias Olivera</a>.
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
