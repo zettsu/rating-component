@@ -34,9 +34,9 @@ html, body {
 .rate-container {
     display: flex;
     width: 100%;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    justify-content: space-around;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .button-container {
