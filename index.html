@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -48,8 +48,8 @@
           <input type="button" class="btn-submit" name="btn" id="btn-submit" value="submit"/>
         </div>
       </div>
-      <div class="container centered hidden" id="thank-you-container">
-        <div>
+      <div class="container centered" style="display: none" id="thank-you-container">
+        <div class="image-container">
           <img src="images/illustration-thank-you.svg" alt="thank you image"/>
         </div>
         <div class="badge">
@@ -62,12 +62,14 @@
         </div>
       </div>
     </main>
-    <div class="footer-container">
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Matias Olivera</a>.
+    <footer>
+      <div class="footer-container">
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Matias Olivera</a>.
+        </div>
       </div>
-    </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

@@ -120,28 +120,12 @@ body{
     padding-top: 40%;
 }
 
-.container {
-    margin: 0% 10% 0% 10%;
-
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--dark-blue);
-    border-radius: 25px;
-    padding: 8%;
-    border: 1px solid #2d2d2d;
-}
-
 .flex {
     display: flex;
 }
 
 .rate-option:nth-child(n+2) {
     margin-left: 2%;
-}
-
-.hidden {
-    display: none;
 }
 
 .badge {
@@ -154,24 +138,47 @@ body{
     border-radius: 25px;
 }
 
+.image-container {
+    margin-top: 20px;
+}
+
 .centered {
     text-align: center;
 }
 
-@media only screen and (min-width: 1440px) {
-    body{
-        padding-top: 0%;
-    }
+body{
+    padding-top: 0%;
+}
 
+.container {
+    font-size: 24px;
+    max-width: 85%;
+    flex-flow: column;
+    min-height: 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--dark-blue);
+    padding: 20px;
+    border-radius: 25px;
+    flex-flow: column;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:100vh;
+    height: 100%;
+}
+
+.thank-you-container {
+    padding: 30px 20px 20px 20px;
+}
+
+@media only screen and (min-width: 375px) {
     .container {
-        font-size: 24px;
-        margin: 10% 38% 10% 38%;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--dark-blue);
-        padding: 2%;
-        border-radius: 25px;
+        max-width: 300px;
     }
 }
 
